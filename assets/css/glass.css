@@ -62,3 +62,57 @@ footer a,.apple-footer a,footer span,.apple-footer span{color:#655344!important}
 a{color:#72543f}a:hover{color:#4b372a}
 .text-primary,.text-info,.fa-circle-check,.feature-symbol i,.about-list i{color:#80634d!important}
 :focus-visible{outline:2px solid #9a785b!important;outline-offset:3px}
+
+
+/* IDEAS PAGE — crystal-clear transparent glass cards, no navy/blue surfaces */
+body.inner-page .results-panel{
+ background:rgba(255,255,255,.055)!important;
+ border:1px solid rgba(255,255,255,.72)!important;
+ border-radius:26px!important;
+ box-shadow:0 18px 48px rgba(77,56,39,.10),inset 0 1px 0 rgba(255,255,255,.78)!important;
+ backdrop-filter:blur(28px) saturate(145%)!important;
+ -webkit-backdrop-filter:blur(28px) saturate(145%)!important;
+}
+body.inner-page #results article.idea-card,
+body.inner-page #results .idea-card{
+ background:rgba(255,255,255,.075)!important;
+ background-image:none!important;
+ color:#49372c!important;
+ border:1px solid rgba(255,255,255,.78)!important;
+ border-radius:22px!important;
+ box-shadow:0 12px 34px rgba(77,56,39,.075),inset 0 1px 0 rgba(255,255,255,.78)!important;
+ backdrop-filter:blur(26px) saturate(155%)!important;
+ -webkit-backdrop-filter:blur(26px) saturate(155%)!important;
+}
+body.inner-page #results article.idea-card:hover,
+body.inner-page #results .idea-card:hover{
+ background:rgba(255,255,255,.13)!important;
+ background-image:none!important;
+ border-color:rgba(255,255,255,.96)!important;
+ box-shadow:0 18px 42px rgba(77,56,39,.12),inset 0 1px 0 rgba(255,255,255,.9)!important;
+ transform:translateY(-3px)!important;
+}
+body.inner-page #results .idea-card *{color:#49372c}
+body.inner-page #results .idea-card h4,
+body.inner-page #results .idea-card h5{color:#49372c!important}
+body.inner-page #results .idea-card p,
+body.inner-page #results .idea-card .idea-meta{color:#705e50!important}
+body.inner-page #results .idea-card .badge,
+body.inner-page #results .idea-card .text-bg-light,
+body.inner-page #results .badge.text-bg-light{
+ color:#604a3b!important;background:rgba(255,255,255,.20)!important;border:1px solid rgba(255,255,255,.78)!important;
+}
+body.inner-page #results .idea-card .btn-primary{
+ background:rgba(76,54,40,.88)!important;color:#fffaf3!important;border:1px solid rgba(255,255,255,.78)!important;
+}
+body.inner-page #results .idea-card canvas{
+ display:block;max-width:100%;height:auto;border:1px solid rgba(255,255,255,.72);border-radius:16px;
+ box-shadow:0 8px 25px rgba(77,56,39,.08);
+}
+body.inner-page #results .idea-card .idea-meta b{color:#604a3b!important}
+body.inner-page #results .alert,
+body.inner-page #results .alert-warning,
+body.inner-page #results .alert-danger{
+ background:rgba(255,255,255,.16)!important;color:#574334!important;border:1px solid rgba(255,255,255,.72)!important;
+ backdrop-filter:blur(22px)!important;-webkit-backdrop-filter:blur(22px)!important;
+}
