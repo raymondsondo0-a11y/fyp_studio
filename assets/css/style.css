@@ -146,3 +146,40 @@ body.apple-home{background:#fff!important;color:#1d1d1f!important;font-family:-a
 .apple-home .navbar-toggler{border:0}.apple-home .navbar-toggler:focus{box-shadow:none}.apple-home .navbar-toggler-icon{filter:grayscale(1)}
 @media(max-width:767px){.apple-hero{padding:70px 0 45px}.apple-hero h1{font-size:56px}.hero-art{height:175px}.art-ring{width:220px}.ring-two{width:290px}.orbit-left{left:0}.orbit-right{right:0}.apple-intro-section{padding:65px 0 35px}.apple-feature-section{padding-bottom:65px}.apple-feature{min-height:340px}.apple-disciplines{padding:65px 0}.apple-disciplines p{margin:0}.apple-bottom-cta{padding:70px 0}.apple-home .navbar-nav{padding:12px 0}}
 @media(prefers-reduced-motion:reduce){.apple-home *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* MAESTROY TWO-COLOUR EDITION — strict black and white only */
+body.apple-home{background:#fff!important;color:#000!important}
+.apple-home *{--bs-primary:#000;--bs-link-color:#000;--bs-link-hover-color:#000}
+.apple-home .apple-nav{background:#fff!important;border-bottom:1px solid #000;backdrop-filter:none!important}
+.apple-home .navbar-brand,.apple-home .nav-link,.apple-home .nav-link:hover,.apple-home .nav-link.active{color:#000!important}
+.apple-home .apple-brand-mark{background:#000!important;color:#fff!important}
+.apple-home .brand-suffix,.apple-home .apple-eyebrow,.apple-home .apple-kicker,.apple-home .hero-note,.apple-home .apple-lead,.apple-home .apple-section-lead,.apple-home .apple-disciplines p,.apple-home .apple-bottom-cta p{color:#000!important}
+.apple-home .apple-hero,.apple-home .apple-intro-section,.apple-home .apple-feature-section,.apple-home .apple-bottom-cta{background:#fff!important}
+.apple-home .apple-hero h1,.apple-home .apple-intro-section h2,.apple-home .apple-disciplines h2,.apple-home .apple-bottom-cta h2{color:#000!important}
+.apple-home .apple-hero h1 em,.apple-home .apple-intro-section h2 span,.apple-home .apple-disciplines h2 span{background:none!important;color:#000!important;-webkit-text-fill-color:#000!important}
+.apple-home .apple-primary,.apple-home .apple-nav-cta{background:#000!important;color:#fff!important;border:1px solid #000!important;box-shadow:none!important}
+.apple-home .apple-primary:hover,.apple-home .apple-nav-cta:hover{background:#fff!important;color:#000!important}
+.apple-home .apple-secondary{background:#fff!important;color:#000!important;border:1px solid #000!important}
+.apple-home .apple-secondary:hover{background:#000!important;color:#fff!important;border-color:#000!important}
+.apple-home .hero-note i,.apple-home .discipline-pills i,.apple-home .apple-feature a{color:#000!important}
+.apple-home .hero-art .art-core{background:#000!important;box-shadow:none!important;border:1px solid #000}
+.apple-home .art-core span{color:#fff!important}
+.apple-home .art-ring{border-color:#000!important}
+.apple-home .art-orbit{background:#fff!important;color:#000!important;border:1px solid #000!important;box-shadow:none!important}
+.apple-home .apple-feature{border:1px solid #000!important;border-radius:0!important;box-shadow:none!important}
+.apple-home .feature-dark,.apple-home .feature-lilac,.apple-home .feature-sand{background:#fff!important;color:#000!important}
+.apple-home .feature-symbol{background:#000!important;color:#fff!important;border-radius:0!important}
+.apple-home .feature-dark .feature-symbol{background:#000!important;color:#fff!important}
+.apple-home .feature-graphic *{box-shadow:none!important}
+.apple-home .graphic-compass .compass-circle{background:#000!important;color:#fff!important;border:1px solid #000}
+.apple-home .graphic-blueprint .blueprint-lines{background:#fff!important;border:1px solid #000}
+.apple-home .blueprint-lines i,.apple-home .blueprint-lines b{background:#000!important}
+.apple-home .slide-mini,.apple-home .slide-mini.second{background:#fff!important;border:1px solid #000!important}
+.apple-home .slide-mini b,.apple-home .slide-mini i{background:#000!important}
+.apple-home .apple-disciplines{background:#fff!important;border-top:1px solid #000;border-bottom:1px solid #000}
+.apple-home .discipline-pills span{background:#fff!important;color:#000!important;border:1px solid #000!important;border-radius:0!important}
+.apple-home .apple-footer{background:#fff!important;color:#000!important;border-top:1px solid #000}
+.apple-home .apple-footer *{color:#000!important}
+.apple-home .apple-eyebrow span{background:#000!important}
+.apple-home .navbar-toggler-icon{filter:grayscale(1) brightness(0)!important}
+@media(max-width:767px){.apple-home .apple-nav{background:#fff!important}}
