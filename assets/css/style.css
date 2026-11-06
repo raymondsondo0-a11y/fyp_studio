@@ -78,3 +78,9 @@ body:has(#project-canvas-wall) .studio-hero{background:linear-gradient(90deg,rgb
 .feature-strip{ -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
 /* Keep glass readable on small screens without heavy glow */
 @media(max-width:768px){.card,.step-card,.discipline-card,.float-panel,.preview-card,.workspace-tile,.form-panel,.results-panel{backdrop-filter:blur(18px) saturate(145%)!important;-webkit-backdrop-filter:blur(18px) saturate(145%)!important}}
+
+.idea-canvas-wrap{margin:22px 0 24px;padding:16px;border:1px solid rgba(255,255,255,.24);border-radius:18px;background:rgba(255,255,255,.07);backdrop-filter:blur(18px);box-shadow:0 15px 45px #0004}
+.idea-canvas-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.idea-visual-canvas{display:block;width:100%;height:auto;border-radius:12px;border:1px solid rgba(255,255,255,.2)}
+.canvas-caption{font-size:.82rem;color:#c6bddb;margin:12px 0}
+.idea-canvas-wrap .btn{margin-top:2px}
