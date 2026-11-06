@@ -6,9 +6,9 @@
 <meta name="description" content="Discover a final-year project idea, shape your proposal and prepare a presentation with Maestroy FYP Studio.">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-<link href="assets/css/style.css?v=20261106-apple1" rel="stylesheet">
+<link href="assets/css/style.css?v=20261106-glass1" rel="stylesheet">
 </head>
-<body class="apple-home">
+<body class="apple-home"><div id="project-canvas-wall" aria-hidden="true"><div class="canvas-slide canvas-slide-a"></div><div class="canvas-slide canvas-slide-b"></div><div class="canvas-wall-shade"></div></div>
 <nav class="navbar navbar-expand-lg apple-nav">
  <div class="container">
   <a class="navbar-brand" href="index.php"><span class="apple-brand-mark">M</span> maestroy <span class="brand-suffix">FYP STUDIO</span></a>
