@@ -16,7 +16,7 @@ jobs:
           server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /htdocs/
+          server-dir: /maestroy.kesug.com/htdocs/
           protocol: ftp
           dangerous-clean-slate: false
           exclude: |
