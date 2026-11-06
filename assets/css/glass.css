@@ -1,0 +1,21 @@
+/* MAESTROY — PURE CLEAR GLASS CONTAINERS (site-wide) */
+:root{--maestroy-glass:rgba(255,255,255,.16);--maestroy-glass-edge:rgba(255,255,255,.62);--maestroy-glass-shadow:0 14px 42px rgba(38,31,24,.12)}
+.form-panel,.results-panel,.idea-card,.proposal-document,.workspace-tile,.preview-card,.step-card,.discipline-card,.float-panel,.lab-scene,.feature-strip,.cta-band,.apple-feature,.feature-card,.project-card,.tool-card,.stat-card,.output-card,.slide-card,.info-card,.apple-disciplines,.apple-bottom-cta,.apple-intro-section,.apple-hero{
+ background:rgba(255,255,255,.13)!important;
+ color:#49372c!important;
+ border:1px solid var(--maestroy-glass-edge)!important;
+ box-shadow:var(--maestroy-glass-shadow),inset 0 1px 0 rgba(255,255,255,.72)!important;
+ backdrop-filter:blur(18px) saturate(150%)!important;
+ -webkit-backdrop-filter:blur(18px) saturate(150%)!important;
+}
+.form-panel,.results-panel{background:rgba(255,255,255,.19)!important}
+.idea-card,.step-card,.discipline-card,.workspace-tile,.apple-feature{background:rgba(255,255,255,.12)!important}
+.feature-dark,.feature-lilac,.feature-sand{background:rgba(255,255,255,.12)!important}
+.apple-disciplines,.apple-bottom-cta,.apple-intro-section,.apple-hero{background:rgba(255,255,255,.08)!important}
+.form-panel h3,.empty-state h3,.idea-card h4,.proposal-document h3,.proposal-document h5,.step-card h4,.apple-feature h3,.preview-body h3{color:#49372c!important}
+.form-label,.form-note,.empty-state p,.idea-card p,.about-list li,.section-heading p,.page-intro p,.preview-body p,.preview-body small,.apple-feature p,.apple-disciplines p,.text-secondary,.text-muted{color:#65564a!important}
+.form-control,.form-select,.form-control:focus,.form-select:focus,textarea,input,select{background:rgba(255,255,255,.24)!important;color:#49372c!important;border:1px solid rgba(255,255,255,.82)!important;box-shadow:inset 0 1px 3px rgba(70,48,31,.06)!important}
+.form-control::placeholder{color:#8b7b6d!important}
+.alert-info,.alert-warning,.alert-danger{background:rgba(255,255,255,.20)!important;color:#574334!important;border:1px solid rgba(255,255,255,.78)!important;backdrop-filter:blur(14px)!important}
+.apple-feature:hover,.idea-card:hover,.step-card:hover,.discipline-card:hover{background:rgba(255,255,255,.22)!important;border-color:rgba(255,255,255,.9)!important}
+@media(prefers-reduced-transparency:reduce){.form-panel,.results-panel,.idea-card,.proposal-document,.workspace-tile,.preview-card,.step-card,.discipline-card,.float-panel,.lab-scene,.feature-strip,.cta-band,.apple-feature{backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background:rgba(255,255,255,.88)!important}}
