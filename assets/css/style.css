@@ -213,3 +213,44 @@ footer a,.apple-footer a,footer span,.apple-footer span{color:#111!important}
 .progress{background:#eee!important}.progress-bar{background:#111!important;box-shadow:none!important}
 .art-ring,.art-core,.art-orbit,.feature-graphic,.compass-circle,.blueprint-lines,.slide-mini{filter:grayscale(1)!important}
 @media(max-width:991px){.navbar-collapse{background:#fff!important}.navbar-nav{padding:12px!important}}
+
+
+/* MAESTROY WARM EDITORIAL GLASS — inspired by the supplied sofa poster */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--warm-ink:#463329!important;--warm-muted:#75665a!important;--warm-line:rgba(255,250,242,.58)!important;--warm-glass:rgba(255,249,239,.40)!important;--warm-glass-strong:rgba(255,250,244,.64)!important;--warm-shadow:0 18px 50px rgba(70,48,31,.14)!important}
+html,body,body.inner-page,body.apple-home{background:#d8c7b2!important;color:var(--warm-ink)!important;font-family:'DM Sans',sans-serif!important}
+body{position:relative;isolation:isolate}
+#project-canvas-wall{display:block!important;position:fixed!important;inset:0!important;z-index:-2!important;overflow:hidden!important;background:#d8c7b2!important}
+.canvas-slide{background-position:center!important;background-size:cover!important;filter:brightness(.93) saturate(.78) contrast(.96)!important;transform:scale(1.035);transition:opacity 2.4s ease-in-out,transform 8s ease-in-out!important}
+.canvas-slide.is-visible{opacity:1!important;filter:brightness(.93) saturate(.78) contrast(.96)!important}
+.canvas-wall-shade{background:linear-gradient(90deg,rgba(248,239,225,.50),rgba(248,239,225,.20) 48%,rgba(248,239,225,.42)),linear-gradient(0deg,rgba(235,220,199,.42),rgba(250,244,235,.08) 52%,rgba(245,235,220,.24))!important}
+body:has(#project-canvas-wall) main,body:has(#project-canvas-wall) .hero,body:has(#project-canvas-wall) .studio-hero,body:has(#project-canvas-wall) .page-wrap,body:has(#project-canvas-wall) .section-pad,body:has(#project-canvas-wall) .feature-strip,body:has(#project-canvas-wall) .discipline-section,body:has(#project-canvas-wall) .cta-band,body:has(#project-canvas-wall) .apple-hero,body:has(#project-canvas-wall) .apple-intro-section,body:has(#project-canvas-wall) .apple-feature-section,body:has(#project-canvas-wall) .apple-disciplines,body:has(#project-canvas-wall) .apple-bottom-cta{background:transparent!important;color:var(--warm-ink)!important}
+.site-nav,.apple-nav{background:rgba(250,245,237,.50)!important;border-bottom:1px solid rgba(255,255,255,.62)!important;backdrop-filter:blur(22px) saturate(145%)!important;-webkit-backdrop-filter:blur(22px) saturate(145%)!important;box-shadow:0 8px 30px rgba(70,48,31,.08)!important}
+.navbar-brand,.navbar-brand:hover,.brand-light,.nav-link,.nav-link:hover,.nav-link.active,.apple-nav .navbar-brand,.apple-nav .nav-link{color:#4a382d!important}
+.brand-mark,.apple-brand-mark{background:rgba(255,250,243,.45)!important;color:#4a382d!important;border:1px solid rgba(255,255,255,.8)!important;box-shadow:0 5px 16px rgba(75,51,34,.10)!important;border-radius:50%!important}
+.btn,.btn-primary,.btn-nav,.apple-primary,.apple-secondary,.btn-light,.apple-nav-cta{background:rgba(76,54,40,.88)!important;color:#fffaf3!important;border:1px solid rgba(255,255,255,.6)!important;border-radius:999px!important;box-shadow:0 8px 24px rgba(70,48,31,.16)!important;font-weight:600!important;transition:transform .25s ease,background .25s ease!important}
+.btn:hover,.btn-primary:hover,.btn-nav:hover,.apple-primary:hover,.apple-secondary:hover,.btn-light:hover,.apple-nav-cta:hover{background:#5b4030!important;color:#fff!important;transform:translateY(-2px)!important}
+.btn-outline-info,.btn-outline-light,.btn-outline-secondary{background:rgba(255,250,243,.32)!important;color:#49372c!important;border:1px solid rgba(255,255,255,.8)!important}
+.page-intro h1,.page-intro h2,.page-intro h3,.page-intro p,.page-intro .eyebrow,.eyebrow,.eyebrow.dark,.gradient-text,.section-heading h2,.section-heading p,.apple-home h1,.apple-home h2,.apple-home h3,.apple-home p,.apple-kicker,.apple-eyebrow,.apple-lead,.apple-section-lead,.apple-disciplines p,.apple-bottom-cta p{color:#49372c!important;background:none!important;-webkit-text-fill-color:#49372c!important}
+.hero h1,.page-intro h1,.apple-home .apple-hero h1,.apple-home .apple-intro-section h2,.apple-home .apple-disciplines h2,.apple-home .apple-bottom-cta h2,.section-title{font-family:'Cormorant Garamond',serif!important;font-weight:600!important;letter-spacing:-1.5px!important;color:#49372c!important}
+.form-panel,.results-panel,.idea-card,.proposal-document,.workspace-tile,.preview-card,.step-card,.discipline-card,.float-panel,.lab-scene,.feature-strip,.cta-band,.apple-feature,.feature-card,.project-card,.tool-card,.stat-card,.output-card,.slide-card,.info-card{background:var(--warm-glass)!important;color:#49372c!important;border:1px solid var(--warm-line)!important;border-radius:22px!important;box-shadow:var(--warm-shadow),inset 0 1px 0 rgba(255,255,255,.72)!important;backdrop-filter:blur(22px) saturate(155%)!important;-webkit-backdrop-filter:blur(22px) saturate(155%)!important}
+.form-panel,.results-panel{background:rgba(255,249,240,.48)!important}
+.idea-card,.step-card,.discipline-card,.workspace-tile{background:rgba(255,249,240,.34)!important}
+.form-panel h3,.empty-state h3,.idea-card h4,.proposal-document h3,.proposal-document h5,.step-card h4,.apple-feature h3,.preview-body h3,.apple-feature h3{color:#49372c!important}
+.form-label,.form-note,.empty-state p,.idea-card p,.about-list li,.section-heading p,.page-intro p,.preview-body p,.preview-body small,.apple-feature p,.apple-disciplines p,.text-secondary,.text-muted{color:#746458!important}
+.form-control,.form-select,.form-control:focus,.form-select:focus,textarea,input,select{background:rgba(255,252,247,.48)!important;color:#49372c!important;border:1px solid rgba(255,255,255,.82)!important;border-radius:12px!important;box-shadow:inset 0 1px 3px rgba(89,65,45,.06)!important;backdrop-filter:blur(12px)!important}
+.form-control::placeholder{color:#9a8878!important}.form-select option{background:#fffaf3!important;color:#49372c!important}
+.idea-meta,.live-tag,.preview-pills span,.badge,.badge.text-bg-light{color:#604a3b!important;background:rgba(255,250,243,.45)!important;border:1px solid rgba(255,255,255,.8)!important}
+.about-list li{border-bottom:1px solid rgba(255,255,255,.45)!important}.about-list i,.feature-symbol,.empty-icon,.preview-icon,.step-icon{color:#725541!important;background:rgba(255,250,243,.38)!important;border:1px solid rgba(255,255,255,.72)!important;box-shadow:none!important}
+.idea-card:hover,.step-card:hover,.discipline-card:hover{border-color:rgba(255,255,255,.95)!important;box-shadow:0 20px 55px rgba(70,48,31,.18)!important;transform:translateY(-3px)!important}
+.alert-info,.alert-warning,.alert-danger{color:#574334!important;background:rgba(255,250,243,.58)!important;border:1px solid rgba(255,255,255,.82)!important;backdrop-filter:blur(16px)!important}
+footer,.apple-footer{background:rgba(248,240,229,.48)!important;color:#655344!important;border-top:1px solid rgba(255,255,255,.65)!important;backdrop-filter:blur(16px)!important}
+footer a,.apple-footer a,footer span,.apple-footer span{color:#655344!important}
+.progress{background:rgba(255,255,255,.45)!important}.progress-bar{background:#8b6c53!important;box-shadow:none!important}
+.apple-home .apple-nav-cta,.apple-home .apple-primary{background:rgba(76,54,40,.88)!important;color:#fffaf3!important}
+.apple-home .apple-feature,.apple-home .feature-dark,.apple-home .feature-lilac,.apple-home .feature-sand{border-radius:22px!important;background:rgba(255,249,240,.36)!important;color:#49372c!important}
+.apple-home .feature-symbol{border-radius:50%!important;background:rgba(255,250,243,.5)!important;color:#725541!important}
+.apple-home .discipline-pills span{background:rgba(255,250,243,.38)!important;color:#604a3b!important;border:1px solid rgba(255,255,255,.8)!important;border-radius:999px!important}
+.apple-home .apple-footer{background:rgba(248,240,229,.48)!important}
+@media(max-width:991px){.navbar-collapse{background:rgba(250,245,237,.72)!important;backdrop-filter:blur(20px)!important;border-radius:16px;padding:12px!important}.navbar-nav{padding:10px!important}}
+@media(prefers-reduced-motion:reduce){.canvas-slide{transition:none!important;transform:none!important}}
