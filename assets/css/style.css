@@ -84,3 +84,65 @@ body:has(#project-canvas-wall) .studio-hero{background:linear-gradient(90deg,rgb
 .idea-visual-canvas{display:block;width:100%;height:auto;border-radius:12px;border:1px solid rgba(255,255,255,.2)}
 .canvas-caption{font-size:.82rem;color:#c6bddb;margin:12px 0}
 .idea-canvas-wrap .btn{margin-top:2px}
+
+/* Apple-inspired Maestroy homepage: quiet typography, spacious layout, minimal illustration */
+body.apple-home{background:#fff!important;color:#1d1d1f!important;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif;overflow-x:hidden}
+.apple-home .apple-nav{position:sticky;top:0;z-index:20;background:rgba(250,250,252,.88)!important;border-bottom:1px solid rgba(0,0,0,.07);backdrop-filter:saturate(180%) blur(18px);padding:10px 0;box-shadow:none}
+.apple-home .navbar-brand{display:flex;align-items:center;gap:9px;color:#1d1d1f!important;font-size:18px;font-weight:650;letter-spacing:-.7px}
+.apple-brand-mark{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;background:#1d1d1f;color:#fff;font-weight:750;font-size:16px}
+.apple-home .brand-suffix{font-size:9px;letter-spacing:1.3px;color:#86868b;font-weight:700;margin-left:2px}
+.apple-home .nav-link{color:#424245!important;font-size:13px;padding:10px 0!important}
+.apple-home .nav-link:hover,.apple-home .nav-link.active{color:#06c!important}
+.apple-nav-cta{background:#0071e3;color:white;border-radius:22px;padding:7px 15px;font-size:12px;font-weight:600}
+.apple-nav-cta:hover{background:#0077ed;color:#fff}
+.apple-hero{position:relative;overflow:hidden;padding:92px 0 74px;background:radial-gradient(ellipse at 50% 78%,#e8eaff 0,rgba(238,240,255,.5) 26%,transparent 58%),linear-gradient(180deg,#fbfbfd,#fff)}
+.apple-eyebrow,.apple-kicker{font-size:11px;letter-spacing:1.7px;font-weight:700;color:#6e6e73}
+.apple-eyebrow span{display:inline-block;width:7px;height:7px;background:#34c759;border-radius:50%;margin:0 8px 1px 0}
+.apple-hero h1{font-size:clamp(54px,8vw,96px);line-height:.99;letter-spacing:-.075em;font-weight:750;color:#1d1d1f;margin:24px 0 20px}
+.apple-hero h1 em{font-style:normal;background:linear-gradient(100deg,#0071e3,#7356d9 55%,#b34fc8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.apple-lead{max-width:650px;margin:0 auto;color:#6e6e73;font-size:clamp(17px,2vw,21px);line-height:1.55;letter-spacing:-.25px}
+.apple-primary,.apple-secondary{border-radius:24px;padding:12px 21px;font-size:14px;font-weight:600}
+.apple-primary{background:#0071e3;color:#fff;border:1px solid #0071e3;box-shadow:none}
+.apple-primary:hover{background:#0077ed;color:#fff;transform:translateY(-1px)}
+.apple-secondary{background:transparent;color:#06c;border:1px solid #b8c9e2}
+.apple-secondary:hover{background:#f5f9ff;color:#06c;border-color:#06c}
+.hero-note{margin-top:23px;font-size:12px;color:#86868b}.hero-note i{color:#8e62d9;margin-right:5px}
+.hero-art{height:210px;max-width:520px;margin:34px auto 0;position:relative;display:flex;align-items:center;justify-content:center}
+.art-core{width:112px;height:112px;border-radius:34px;display:grid;place-items:center;background:linear-gradient(145deg,#fff,#e9eaff);box-shadow:0 20px 55px rgba(75,83,150,.16),inset 0 1px 0 #fff;transform:rotate(-8deg);z-index:2}
+.art-core span{font-size:46px;font-weight:750;letter-spacing:-5px;color:#282a45;transform:rotate(8deg)}
+.art-ring{position:absolute;width:260px;height:110px;border:1px solid rgba(75,92,190,.2);border-radius:50%;transform:rotate(-18deg)}
+.ring-two{width:360px;height:145px;transform:rotate(23deg);border-color:rgba(0,113,227,.13)}
+.art-orbit{position:absolute;font-size:9px;letter-spacing:1.4px;font-weight:750;color:#77798d;background:rgba(255,255,255,.85);border:1px solid rgba(80,90,150,.12);border-radius:20px;padding:8px 12px;box-shadow:0 8px 24px rgba(40,50,100,.07)}
+.orbit-left{left:8%;top:42%}.orbit-right{right:6%;top:35%}.orbit-bottom{bottom:1%;left:calc(50% - 35px)}
+.apple-intro-section{padding:86px 0 48px;background:#fff}
+.apple-intro-section h2,.apple-disciplines h2,.apple-bottom-cta h2{font-size:clamp(38px,5vw,62px);line-height:1.04;letter-spacing:-.065em;font-weight:730;margin:17px 0;color:#1d1d1f}
+.apple-intro-section h2 span,.apple-disciplines h2 span{color:#86868b}
+.apple-section-lead{max-width:590px;margin:0 auto;color:#6e6e73;font-size:17px;line-height:1.6}
+.apple-feature-section{padding:20px 0 92px;background:#fff}
+.apple-feature{height:100%;min-height:390px;position:relative;overflow:hidden;border-radius:25px;padding:30px 28px 185px}
+.apple-feature>span{display:block;font-size:10px;letter-spacing:1.5px;font-weight:700;opacity:.65;margin:19px 0 10px}
+.apple-feature h3{font-size:30px;line-height:1.08;letter-spacing:-1.4px;font-weight:720;margin:0 0 12px}
+.apple-feature p{font-size:14px;line-height:1.6;max-width:300px;opacity:.75;margin:0}
+.apple-feature a{display:inline-block;margin-top:17px;font-size:13px;font-weight:600;text-decoration:none;color:#06c}
+.feature-dark{background:#111827;color:#fff}.feature-lilac{background:#f0edff;color:#27233b}.feature-sand{background:#f5f1e9;color:#332b20}
+.feature-symbol{width:42px;height:42px;border-radius:13px;background:rgba(255,255,255,.6);display:grid;place-items:center;font-size:18px;color:#4c61c7}
+.feature-dark .feature-symbol{background:rgba(255,255,255,.12);color:#9dbdff}
+.feature-graphic{position:absolute;left:0;right:0;bottom:0;height:155px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.graphic-compass .compass-circle{width:125px;height:125px;border-radius:50%;display:grid;place-items:center;color:#a9c4ff;font-size:45px;background:radial-gradient(circle at 35% 25%,#465c8e,#1a2440 65%);box-shadow:0 0 0 14px rgba(255,255,255,.04),0 18px 45px #0005}
+.graphic-blueprint .blueprint-lines{width:190px;height:105px;border:1px solid #b5a9e9;border-radius:14px;transform:rotate(-7deg);padding:18px;background:linear-gradient(135deg,#d9d2ff,#f7f5ff);box-shadow:0 20px 35px #5446a322}
+.blueprint-lines i{display:block;height:7px;border-radius:8px;background:#8d83c8;margin:7px 0;width:85%}.blueprint-lines i:nth-child(2){width:60%}.blueprint-lines i:nth-child(3){width:72%}.blueprint-lines b{display:block;width:35px;height:35px;border-radius:10px;background:#7165b7;float:right;margin-top:-43px}
+.graphic-slides{gap:12px;align-items:flex-end;padding-bottom:20px}
+.slide-mini{width:112px;height:90px;border-radius:10px;background:linear-gradient(140deg,#fff,#f6dfc9);box-shadow:0 12px 30px #68543b22;padding:14px;transform:rotate(-7deg)}
+.slide-mini.second{transform:rotate(7deg) translateY(-12px);background:linear-gradient(140deg,#fff,#d9e5fa)}
+.slide-mini b{display:block;width:55%;height:7px;border-radius:5px;background:#6b6a78;margin-bottom:12px}.slide-mini i{display:block;width:90%;height:4px;border-radius:4px;background:#b6b4bd;margin:6px 0}
+.apple-disciplines{padding:85px 0;background:#f5f5f7}
+.apple-disciplines p{color:#6e6e73;font-size:16px;line-height:1.6;max-width:440px;margin:0 0 4px auto}
+.discipline-pills{display:flex;flex-wrap:wrap;gap:10px}
+.discipline-pills span{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid #e5e5e7;border-radius:24px;padding:13px 17px;font-size:13px;color:#424245}
+.discipline-pills i{color:#06c}
+.apple-bottom-cta{padding:94px 0 100px;background:linear-gradient(180deg,#fff,#f7f8fc);text-align:center}
+.apple-bottom-cta p{color:#6e6e73;font-size:17px;margin:18px 0 25px}
+.apple-footer{background:#f5f5f7;border-top:1px solid #e5e5e7;padding:22px 0;color:#86868b;font-size:12px}
+.apple-home .navbar-toggler{border:0}.apple-home .navbar-toggler:focus{box-shadow:none}.apple-home .navbar-toggler-icon{filter:grayscale(1)}
+@media(max-width:767px){.apple-hero{padding:70px 0 45px}.apple-hero h1{font-size:56px}.hero-art{height:175px}.art-ring{width:220px}.ring-two{width:290px}.orbit-left{left:0}.orbit-right{right:0}.apple-intro-section{padding:65px 0 35px}.apple-feature-section{padding-bottom:65px}.apple-feature{min-height:340px}.apple-disciplines{padding:65px 0}.apple-disciplines p{margin:0}.apple-bottom-cta{padding:70px 0}.apple-home .navbar-nav{padding:12px 0}}
+@media(prefers-reduced-motion:reduce){.apple-home *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
