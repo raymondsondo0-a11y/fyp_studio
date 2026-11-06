@@ -54,3 +54,27 @@ body:has(#project-canvas-wall) .studio-hero{background:linear-gradient(90deg,rgb
 
 /* Slower cinematic crossfade for the 15 FYP background scenes */
 .canvas-slide{transition:opacity 2.4s ease-in-out,transform 8s ease-in-out,filter 2.4s ease-in-out!important}
+
+/* MAESTROY PURE GLASS CARD SYSTEM */
+:root{--glass-fill:rgba(255,255,255,.075);--glass-fill-strong:rgba(255,255,255,.105);--glass-edge:rgba(255,255,255,.24);--glass-shine:rgba(255,255,255,.34);--glass-shadow:0 18px 48px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.22)}
+.card,.step-card,.discipline-card,.float-panel,.preview-card,.workspace-tile,.form-panel,.results-panel,
+.feature-card,.idea-card,.project-card,.tool-card,.stat-card,.output-card,.slide-card,.info-card,.feature-strip .col-6>div{
+ background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.045) 55%,rgba(255,255,255,.075))!important;
+ border:1px solid var(--glass-edge)!important;
+ border-top-color:var(--glass-shine)!important;
+ border-radius:18px!important;
+ box-shadow:var(--glass-shadow)!important;
+ -webkit-backdrop-filter:blur(22px) saturate(155%)!important;
+ backdrop-filter:blur(22px) saturate(155%)!important;
+}
+.step-card,.discipline-card,.float-panel,.preview-card,.workspace-tile,.form-panel,.results-panel{color:#fff}
+.step-card:hover,.discipline-card:hover,.card:hover,.idea-card:hover,.project-card:hover,.tool-card:hover{
+ transform:translateY(-4px);border-color:rgba(49,225,255,.62)!important;
+ box-shadow:0 22px 55px rgba(0,0,0,.28),0 0 24px rgba(36,220,255,.12),inset 0 1px 0 rgba(255,255,255,.3)!important
+}
+.step-card p,.discipline-card small,.form-panel p,.results-panel p{color:rgba(245,241,255,.78)}
+.form-panel,.results-panel{background:linear-gradient(145deg,rgba(24,15,48,.54),rgba(9,18,38,.43))!important}
+.float-panel{background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.055))!important}
+.feature-strip{ -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+/* Keep glass readable on small screens without heavy glow */
+@media(max-width:768px){.card,.step-card,.discipline-card,.float-panel,.preview-card,.workspace-tile,.form-panel,.results-panel{backdrop-filter:blur(18px) saturate(145%)!important;-webkit-backdrop-filter:blur(18px) saturate(145%)!important}}
