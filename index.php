@@ -1,39 +1,76 @@
 <?php ?><!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Maestroy FYP Studio | AI Academic Project Lab</title>
-<meta name="description" content="Discover course-relevant final year project ideas, shape your proposal and prepare a presentation for Canva with Maestroy FYP Studio.">
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maestroy FYP Studio — Make your next idea real</title>
+<meta name="description" content="Discover a final-year project idea, shape your proposal and prepare a presentation with Maestroy FYP Studio.">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"><link href="assets/css/style.css?v=20261106e" rel="stylesheet"></head>
-<body><div id="project-canvas-wall" aria-hidden="true"><div class="canvas-slide canvas-slide-a"></div><div class="canvas-slide canvas-slide-b"></div><div class="canvas-wall-shade"></div></div>
-<nav class="navbar navbar-expand-lg navbar-dark site-nav"><div class="container">
-<a class="navbar-brand" href="index.php"><span class="brand-mark">M</span> MAESTROY <span class="brand-light">/ FYP STUDIO</span></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
-<div class="collapse navbar-collapse" id="mainNav"><div class="navbar-nav ms-auto align-items-lg-center gap-lg-3"><a class="nav-link active" href="index.php">Studio</a><a class="nav-link" href="ideas.php">Project discovery</a><a class="nav-link" href="about.php">How it works</a><a class="btn btn-nav ms-lg-2" href="ideas.php">Launch project lab <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a></div></div>
-</div></nav>
-<header class="hero studio-hero"><div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div><div class="container position-relative"><div class="row align-items-center g-5">
-<div class="col-lg-6"><div class="eyebrow"><span class="pulse"></span> ACADEMIC INNOVATION SYSTEM / ONLINE</div>
-<h1>Build an idea.<br><span class="gradient-text">Shape the future.</span></h1>
-<p class="hero-copy">Your course is the starting point. Maestroy helps you discover a relevant final-year project, organize its proposal, and turn the plan into a presentation outline for Canva.</p>
-<div class="d-flex flex-wrap gap-3 mt-4"><a class="btn btn-primary btn-lg px-4" href="ideas.php"><i class="fa-solid fa-atom me-2"></i>Start project discovery</a><a class="btn btn-outline-light btn-lg px-4" href="#workflow">Explore the workflow</a></div>
-<div class="hero-proof mt-5"><div class="avatar-stack"><span>IT</span><span>BA</span><span>ED</span><span>HL</span></div><div><strong>One studio. Every discipline.</strong><small>Computing · Business · Health · Education · Engineering · more</small></div></div>
-</div>
-<div class="col-lg-6"><div class="lab-scene">
-<div class="scene-caption"><span><i class="fa-solid fa-circle-nodes me-2"></i>MAESTROY / PROJECT ENGINE</span><span class="live-tag">SYSTEM READY</span></div>
-<div class="scene-grid"></div><div class="holo-orbit orbit-a"></div><div class="holo-orbit orbit-b"></div><div class="holo-core"><div class="core-inner"><i class="fa-solid fa-graduation-cap"></i><b>FYP</b><small>IDEA ENGINE</small></div></div>
-<div class="float-panel panel-course"><small>01 / COURSE PROFILE</small><b><i class="fa-solid fa-book-open me-2"></i>Information Systems</b><span>Academic context mapped</span></div>
-<div class="float-panel panel-idea"><small>02 / IDEA DISCOVERY</small><b><i class="fa-solid fa-lightbulb me-2"></i>Project concepts</b><span>Relevant · Feasible · Focused</span></div>
-<div class="float-panel panel-proposal"><small>03 / PROJECT OUTPUT</small><b><i class="fa-solid fa-file-lines me-2"></i>Proposal structure</b><span>Objectives · Methods · Outcomes</span></div>
-<div class="float-panel panel-canva"><small>04 / PRESENTATION</small><b><i class="fa-brands fa-canva me-2"></i>Canva-ready outline</b><span>Slide-by-slide content</span></div>
-<div class="scene-foot"><span><i class="fa-solid fa-shield-halved me-1"></i> Student-guided workflow</span><span><i class="fa-solid fa-cloud-arrow-down me-1"></i> Save drafts in your browser</span></div>
-</div></div>
-</div></div></header>
-<section class="feature-strip"><div class="container"><div class="row g-3 text-center"><div class="col-6 col-md-3"><i class="fa-solid fa-layer-group"></i><b>All disciplines</b><small>Ideas matched to your course</small></div><div class="col-6 col-md-3"><i class="fa-solid fa-brain"></i><b>AI-assisted discovery</b><small>Project directions to explore</small></div><div class="col-6 col-md-3"><i class="fa-solid fa-file-circle-check"></i><b>Proposal workspace</b><small>Organize your academic plan</small></div><div class="col-6 col-md-3"><i class="fa-brands fa-canva"></i><b>Presentation studio</b><small>Prepare content for Canva</small></div></div></div></section>
-<section class="section-pad" id="workflow"><div class="container"><div class="section-heading text-center"><span class="eyebrow">THE MAESTROY PIPELINE</span><h2>From a course outline to a <span class="gradient-text">project blueprint.</span></h2><p>Four connected stages help you move from uncertainty to a plan you can discuss with your supervisor.</p></div>
-<div class="row g-4 mt-3"><div class="col-md-6 col-xl-3"><div class="step-card"><span class="step-no">01</span><div class="step-icon"><i class="fa-solid fa-graduation-cap"></i></div><h4>Define your academic context</h4><p>Enter your course, study level, interests and local or institutional context.</p><div class="pipeline-tag">COURSE PROFILE</div></div></div>
-<div class="col-md-6 col-xl-3"><div class="step-card"><span class="step-no">02</span><div class="step-icon"><i class="fa-solid fa-atom"></i></div><h4>Discover project ideas</h4><p>Explore concepts with a problem focus, possible approach, tools and expected value.</p><div class="pipeline-tag">IDEA ENGINE</div></div></div>
-<div class="col-md-6 col-xl-3"><div class="step-card"><span class="step-no">03</span><div class="step-icon"><i class="fa-solid fa-diagram-project"></i></div><h4>Build your proposal</h4><p>Shape the background, problem, objectives, questions and methodology.</p><div class="pipeline-tag">PROJECT WORKSPACE</div></div></div>
-<div class="col-md-6 col-xl-3"><div class="step-card"><span class="step-no">04</span><div class="step-icon"><i class="fa-brands fa-canva"></i></div><h4>Prepare your presentation</h4><p>Turn the project into a clear slide outline to continue designing in Canva.</p><div class="pipeline-tag">PRESENTATION STUDIO</div></div></div></div></div></section>
-<section class="discipline-section section-pad"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-5"><span class="eyebrow">BUILT FOR EVERY FIELD</span><h2 class="section-title mt-3">Your discipline.<br><span class="gradient-text">Your kind of project.</span></h2><p class="hero-copy">Maestroy is not limited to software projects. Choose the kind of work that makes sense for your field, available resources and academic level.</p><a href="ideas.php" class="btn btn-primary mt-2">Find ideas for my course <i class="fa-solid fa-arrow-right ms-2"></i></a></div><div class="col-lg-7"><div class="discipline-grid"><div class="discipline-card"><i class="fa-solid fa-laptop-code"></i><b>Computing & ICT</b><small>Systems · Networks · Data</small></div><div class="discipline-card"><i class="fa-solid fa-chart-line"></i><b>Business</b><small>Enterprise · Marketing · Finance</small></div><div class="discipline-card"><i class="fa-solid fa-heart-pulse"></i><b>Health sciences</b><small>Care · Public health · Research</small></div><div class="discipline-card"><i class="fa-solid fa-book-open-reader"></i><b>Education</b><small>Learning · Teaching · Assessment</small></div><div class="discipline-card"><i class="fa-solid fa-gears"></i><b>Engineering</b><small>Design · Infrastructure · Energy</small></div><div class="discipline-card"><i class="fa-solid fa-seedling"></i><b>Environment & agriculture</b><small>Community · Sustainability · Food</small></div></div></div></div></div></section>
-<section class="cta-band"><div class="container d-flex flex-column flex-lg-row align-items-lg-center justify-content-between gap-4"><div><span class="eyebrow">READY TO BEGIN?</span><h2>Your next project starts with one good question.</h2><p class="mb-0">Tell Maestroy what you study and what you want to explore.</p></div><a href="ideas.php" class="btn btn-light btn-lg px-4">Open project discovery <i class="fa-solid fa-arrow-right ms-2"></i></a></div></section>
-<footer><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <?php echo date('Y'); ?> Maestroy FYP Studio</span><span>Think clearly. Build meaningfully.</span></div></footer>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="assets/js/app.js?v=20261106e"></script></body></html>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="assets/css/style.css?v=20261106-apple1" rel="stylesheet">
+</head>
+<body class="apple-home">
+<nav class="navbar navbar-expand-lg apple-nav">
+ <div class="container">
+  <a class="navbar-brand" href="index.php"><span class="apple-brand-mark">M</span> maestroy <span class="brand-suffix">FYP STUDIO</span></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="mainNav">
+   <div class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+    <a class="nav-link active" href="index.php">Overview</a><a class="nav-link" href="ideas.php">Discover ideas</a><a class="nav-link" href="about.php">How it works</a>
+    <a class="btn apple-nav-cta ms-lg-2" href="ideas.php">Get started <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+   </div>
+  </div>
+ </div>
+</nav>
+
+<main>
+<section class="apple-hero">
+ <div class="container text-center">
+  <div class="apple-eyebrow"><span></span> YOUR ACADEMIC PROJECT STARTS HERE</div>
+  <h1>Big ideas start<br>with <em>one question.</em></h1>
+  <p class="apple-lead">Find a project direction that fits your course. Turn it into a clear plan. Build a presentation you’re proud to share.</p>
+  <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
+   <a href="ideas.php" class="btn apple-primary">Explore project ideas <i class="fa-solid fa-arrow-right ms-2"></i></a>
+   <a href="about.php" class="btn apple-secondary">See how it works</a>
+  </div>
+  <div class="hero-note"><i class="fa-solid fa-wand-magic-sparkles"></i> One focused workspace. From first thought to final presentation.</div>
+  <div class="hero-art" aria-hidden="true"><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><div class="art-core"><span>M</span></div><div class="art-orbit orbit-left">IDEA</div><div class="art-orbit orbit-right">PROJECT</div><div class="art-orbit orbit-bottom">PRESENT</div></div>
+ </div>
+</section>
+
+<section class="apple-intro-section">
+ <div class="container text-center">
+  <span class="apple-kicker">A BETTER WAY TO BEGIN</span>
+  <h2>Less guessing.<br><span>More meaningful work.</span></h2>
+  <p class="apple-section-lead">You bring your course, interests and curiosity. Maestroy helps you turn them into a practical academic direction.</p>
+ </div>
+</section>
+
+<section class="apple-feature-section">
+ <div class="container">
+  <div class="row g-3">
+   <div class="col-lg-4"><article class="apple-feature feature-dark"><div class="feature-symbol"><i class="fa-solid fa-compass"></i></div><span>01 / DISCOVER</span><h3>Find your direction.</h3><p>Explore project ideas shaped around your discipline, study level, interests and real-world context.</p><a href="ideas.php">Explore ideas <i class="fa-solid fa-arrow-right"></i></a><div class="feature-graphic graphic-compass"><div class="compass-circle"><i class="fa-solid fa-location-arrow"></i></div></div></article></div>
+   <div class="col-lg-4"><article class="apple-feature feature-lilac"><div class="feature-symbol"><i class="fa-solid fa-diagram-project"></i></div><span>02 / DEVELOP</span><h3>Give the idea structure.</h3><p>Shape the problem, objectives, research questions, methodology and expected outcomes.</p><a href="ideas.php">Build a project <i class="fa-solid fa-arrow-right"></i></a><div class="feature-graphic graphic-blueprint"><div class="blueprint-lines"><i></i><i></i><i></i><b></b></div></div></article></div>
+   <div class="col-lg-4"><article class="apple-feature feature-sand"><div class="feature-symbol"><i class="fa-solid fa-display"></i></div><span>03 / PRESENT</span><h3>Make your work clear.</h3><p>Organize your project into a slide-by-slide presentation outline ready for Canva.</p><a href="presentation.php">Open presentation studio <i class="fa-solid fa-arrow-right"></i></a><div class="feature-graphic graphic-slides"><div class="slide-mini"><b></b><i></i><i></i></div><div class="slide-mini second"><b></b><i></i><i></i></div></div></article></div>
+  </div>
+ </div>
+</section>
+
+<section class="apple-disciplines">
+ <div class="container">
+  <div class="row align-items-end g-4 mb-4"><div class="col-lg-7"><span class="apple-kicker">MADE FOR EVERY DISCIPLINE</span><h2>One studio.<br><span>Many possibilities.</span></h2></div><div class="col-lg-5"><p>From technology to business, health, education and beyond — start with the field you study.</p></div></div>
+  <div class="discipline-pills"><span><i class="fa-solid fa-laptop-code"></i> Computing & ICT</span><span><i class="fa-solid fa-chart-line"></i> Business</span><span><i class="fa-solid fa-heart-pulse"></i> Health sciences</span><span><i class="fa-solid fa-book-open"></i> Education</span><span><i class="fa-solid fa-gears"></i> Engineering</span><span><i class="fa-solid fa-leaf"></i> Environment & agriculture</span><span><i class="fa-solid fa-ellipsis"></i> Other fields</span></div>
+ </div>
+</section>
+
+<section class="apple-bottom-cta">
+ <div class="container text-center">
+  <span class="apple-kicker">YOUR NEXT STEP</span>
+  <h2>Start with what<br>you want to solve.</h2>
+  <p>Tell us what you study. We’ll help you explore what you could build.</p>
+  <a href="ideas.php" class="btn apple-primary">Start project discovery <i class="fa-solid fa-arrow-right ms-2"></i></a>
+ </div>
+</section>
+</main>
+<footer class="apple-footer"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© <?php echo date('Y'); ?> Maestroy FYP Studio</span><span>Think clearly. Build meaningfully.</span></div></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body></html>
