@@ -32,11 +32,16 @@ body{position:relative;background:#070511!important}
 body>.site-nav,body>header,body>section,body>main,body>footer{position:relative;z-index:1}
 #project-canvas-wall{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:#070511}
 .canvas-slide{position:absolute;inset:-2%;background-position:center;background-size:cover;background-repeat:no-repeat;opacity:0;transform:scale(1.035);transition:opacity 1.05s ease,transform 7s ease}
-.canvas-slide.is-visible{opacity:.43;transform:scale(1)}
-.canvas-wall-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,4,15,.88),rgba(5,4,15,.61) 48%,rgba(5,4,15,.82)),linear-gradient(0deg,rgba(5,4,15,.86),rgba(5,4,15,.24) 48%,rgba(5,4,15,.78))}
+.canvas-slide.is-visible{opacity:.94;transform:scale(1)}
+.canvas-wall-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,4,15,.42),rgba(5,4,15,.20) 48%,rgba(5,4,15,.42)),linear-gradient(0deg,rgba(5,4,15,.48),rgba(5,4,15,.08) 48%,rgba(5,4,15,.36))}
 body:has(#project-canvas-wall) .hero,body:has(#project-canvas-wall) .studio-hero,body:has(#project-canvas-wall) .section-pad,body:has(#project-canvas-wall) .feature-strip,body:has(#project-canvas-wall) .discipline-section,body:has(#project-canvas-wall) .cta-band,body:has(#project-canvas-wall).inner-page{background-color:transparent!important}
 body:has(#project-canvas-wall) .studio-hero{background:linear-gradient(90deg,rgba(7,5,17,.55),rgba(7,5,17,.2))!important}
 body:has(#project-canvas-wall) .feature-strip{background:rgba(9,7,21,.66)!important}
 body:has(#project-canvas-wall) .discipline-section{background:rgba(8,6,18,.48)!important}
 body:has(#project-canvas-wall) .cta-band{background:linear-gradient(100deg,rgba(20,11,42,.8),rgba(9,23,42,.78))!important}
 @media(prefers-reduced-motion:reduce){.canvas-slide{transition:none;transform:none}}
+
+/* Ensure the photo canvas is visible through all page-level backgrounds */
+body.inner-page:has(#project-canvas-wall){background:transparent!important}
+body:has(#project-canvas-wall) .hero,body:has(#project-canvas-wall) .studio-hero,body:has(#project-canvas-wall) .section-pad,body:has(#project-canvas-wall) .page-wrap,body:has(#project-canvas-wall) main{background:transparent!important}
+body:has(#project-canvas-wall) .form-panel,body:has(#project-canvas-wall) .results-panel{background:rgba(13,9,29,.86)!important;backdrop-filter:blur(8px)}
