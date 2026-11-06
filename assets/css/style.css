@@ -183,3 +183,33 @@ body.apple-home{background:#fff!important;color:#000!important}
 .apple-home .apple-eyebrow span{background:#000!important}
 .apple-home .navbar-toggler-icon{filter:grayscale(1) brightness(0)!important}
 @media(max-width:767px){.apple-home .apple-nav{background:#fff!important}}
+
+
+/* GLOBAL MONOCHROME DESIGN — every Maestroy page */
+:root{--bg:#fff!important;--panel:#fff!important;--panel2:#f5f5f5!important;--ink:#111!important;--muted:#555!important;--cyan:#111!important;--violet:#111!important;--purple:#111!important;--line:#d8d8d8!important;--glow:none!important}
+html,body,body.inner-page,body.apple-home{background:#fff!important;color:#111!important}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif!important}
+#project-canvas-wall,.canvas-slide,.canvas-wall-shade{display:none!important}
+.site-nav,.apple-nav{background:#fff!important;color:#111!important;border-bottom:1px solid #111!important;box-shadow:none!important;backdrop-filter:none!important}
+.navbar-brand,.navbar-brand:hover,.brand-light,.brand-mark,.apple-brand-mark,.apple-nav .navbar-brand,.nav-link,.nav-link:hover,.nav-link.active,.apple-nav .nav-link{color:#111!important}
+.brand-mark,.apple-brand-mark{background:#111!important;color:#fff!important;box-shadow:none!important;border-radius:6px!important}
+.navbar-toggler{border:1px solid #111!important;box-shadow:none!important}.navbar-toggler-icon{filter:grayscale(1) brightness(0)!important}
+.btn,.btn-primary,.btn-nav,.apple-primary,.apple-secondary,.btn-light,.apple-nav-cta{background:#111!important;color:#fff!important;border:1px solid #111!important;box-shadow:none!important;border-radius:7px!important;font-weight:700!important}
+.btn:hover,.btn-primary:hover,.btn-nav:hover,.apple-primary:hover,.apple-secondary:hover,.btn-light:hover,.apple-nav-cta:hover{background:#fff!important;color:#111!important;border-color:#111!important;transform:translateY(-1px)!important}
+.btn-outline-info,.btn-outline-light,.btn-outline-secondary{background:#fff!important;color:#111!important;border:1px solid #111!important}
+.page-wrap,.hero,.studio-hero,.section-pad,.feature-strip,.discipline-section,.cta-band,.apple-hero,.apple-intro-section,.apple-feature-section,.apple-disciplines,.apple-bottom-cta{background:#fff!important;color:#111!important}
+.page-intro h1,.page-intro h2,.page-intro h3,.page-intro p,.page-intro .eyebrow,.eyebrow,.eyebrow.dark,.gradient-text,.section-heading h2,.section-heading p,.apple-home h1,.apple-home h2,.apple-home h3,.apple-home p,.apple-kicker,.apple-eyebrow,.apple-lead,.apple-section-lead,.apple-disciplines p,.apple-bottom-cta p{color:#111!important;background:none!important;-webkit-text-fill-color:#111!important}
+.form-panel,.results-panel,.idea-card,.proposal-document,.workspace-tile,.preview-card,.step-card,.discipline-card,.float-panel,.lab-scene,.feature-strip,.cta-band,.apple-feature,.feature-card,.project-card,.tool-card,.stat-card,.output-card,.slide-card,.info-card{background:#fff!important;color:#111!important;border:1px solid #111!important;border-radius:8px!important;box-shadow:none!important;backdrop-filter:none!important}
+.form-panel h3,.empty-state h3,.idea-card h4,.proposal-document h3,.proposal-document h5,.step-card h4,.apple-feature h3,.preview-body h3{color:#111!important}
+.form-label,.form-note,.empty-state p,.idea-card p,.about-list li,.section-heading p,.page-intro p,.preview-body p,.preview-body small,.apple-feature p,.apple-disciplines p{color:#444!important}
+.form-control,.form-select,.form-control:focus,.form-select:focus,textarea,input,select{background:#fff!important;color:#111!important;border:1px solid #777!important;box-shadow:none!important}
+.form-control::placeholder{color:#777!important}.form-select option{background:#fff!important;color:#111!important}
+.idea-meta,.live-tag,.preview-pills span,.badge,.badge.text-bg-light{color:#111!important;background:#f5f5f5!important;border:1px solid #aaa!important}
+.about-list i,.feature-symbol,.empty-icon,.preview-icon,.step-icon{color:#111!important;background:#f2f2f2!important;border:1px solid #111!important;box-shadow:none!important}
+.idea-card:hover,.step-card:hover,.discipline-card:hover{border-color:#111!important;box-shadow:none!important;transform:translateY(-2px)!important}
+.alert-info,.alert-warning,.alert-danger{color:#111!important;background:#f5f5f5!important;border:1px solid #777!important}
+footer,.apple-footer{background:#fff!important;color:#111!important;border-top:1px solid #111!important}
+footer a,.apple-footer a,footer span,.apple-footer span{color:#111!important}
+.progress{background:#eee!important}.progress-bar{background:#111!important;box-shadow:none!important}
+.art-ring,.art-core,.art-orbit,.feature-graphic,.compass-circle,.blueprint-lines,.slide-mini{filter:grayscale(1)!important}
+@media(max-width:991px){.navbar-collapse{background:#fff!important}.navbar-nav{padding:12px!important}}
