@@ -116,3 +116,88 @@ body.inner-page #results .alert-danger{
  background:rgba(255,255,255,.16)!important;color:#574334!important;border:1px solid rgba(255,255,255,.72)!important;
  backdrop-filter:blur(22px)!important;-webkit-backdrop-filter:blur(22px)!important;
 }
+
+
+/* IDEAS.PHP — FINAL CRYSTAL GLASS OVERRIDE
+   Keep all generated idea cards and their inner panels transparent.
+   Remove legacy navy/blue/purple fills from nested content. */
+body.inner-page #results .idea-card,
+body.inner-page #results article.idea-card,
+body.inner-page #results .idea-card > *,
+body.inner-page #results .idea-card .idea-canvas-wrap,
+body.inner-page #results .idea-card .idea-canvas-head,
+body.inner-page #results .idea-card .canvas-caption {
+  color:#49372c!important;
+}
+body.inner-page #results .idea-card,
+body.inner-page #results article.idea-card {
+  background:rgba(255,255,255,.045)!important;
+  background-color:rgba(255,255,255,.045)!important;
+  background-image:none!important;
+  border:1px solid rgba(255,255,255,.82)!important;
+  border-radius:24px!important;
+  box-shadow:0 16px 42px rgba(70,48,31,.075),inset 0 1px 0 rgba(255,255,255,.82)!important;
+  backdrop-filter:blur(30px) saturate(155%)!important;
+  -webkit-backdrop-filter:blur(30px) saturate(155%)!important;
+}
+body.inner-page #results .idea-card .idea-canvas-wrap,
+body.inner-page #results .idea-card .idea-canvas-head,
+body.inner-page #results .idea-card .idea-meta,
+body.inner-page #results .idea-card .badge,
+body.inner-page #results .idea-card .text-bg-light,
+body.inner-page #results .idea-card .alert,
+body.inner-page #results .idea-card .card,
+body.inner-page #results .idea-card [class*="bg-"] {
+  background:rgba(255,255,255,.055)!important;
+  background-color:rgba(255,255,255,.055)!important;
+  background-image:none!important;
+  color:#604a3b!important;
+  border-color:rgba(255,255,255,.76)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.65)!important;
+  backdrop-filter:blur(24px) saturate(150%)!important;
+  -webkit-backdrop-filter:blur(24px) saturate(150%)!important;
+}
+body.inner-page #results .idea-card h1,
+body.inner-page #results .idea-card h2,
+body.inner-page #results .idea-card h3,
+body.inner-page #results .idea-card h4,
+body.inner-page #results .idea-card h5,
+body.inner-page #results .idea-card h6,
+body.inner-page #results .idea-card p,
+body.inner-page #results .idea-card span,
+body.inner-page #results .idea-card b,
+body.inner-page #results .idea-card strong,
+body.inner-page #results .idea-card small,
+body.inner-page #results .idea-card i {
+  color:#49372c!important;
+}
+body.inner-page #results .idea-card .btn-primary,
+body.inner-page #results .idea-card .btn-outline-info,
+body.inner-page #results .idea-card .btn-outline-light,
+body.inner-page #results .idea-card .btn-outline-secondary {
+  background:rgba(255,250,243,.14)!important;
+  background-image:none!important;
+  color:#49372c!important;
+  border:1px solid rgba(255,255,255,.88)!important;
+  box-shadow:0 6px 18px rgba(70,48,31,.08)!important;
+}
+body.inner-page #results .idea-card .btn-primary:hover,
+body.inner-page #results .idea-card .btn-outline-info:hover,
+body.inner-page #results .idea-card .btn-outline-light:hover,
+body.inner-page #results .idea-card .btn-outline-secondary:hover {
+  background:rgba(255,255,255,.25)!important;
+  color:#49372c!important;
+}
+body.inner-page #results .idea-card .idea-visual-canvas {
+  background:transparent!important;
+  border:1px solid rgba(255,255,255,.82)!important;
+  border-radius:18px!important;
+  box-shadow:0 10px 28px rgba(70,48,31,.08)!important;
+}
+body.inner-page #results .idea-card:hover,
+body.inner-page #results article.idea-card:hover {
+  background:rgba(255,255,255,.085)!important;
+  background-image:none!important;
+  border-color:rgba(255,255,255,.98)!important;
+  box-shadow:0 20px 48px rgba(70,48,31,.11),inset 0 1px 0 rgba(255,255,255,.9)!important;
+}
