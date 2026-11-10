@@ -10,11 +10,11 @@
 <meta property="og:title" content="AI Content Notes Generator | Maestroy FYP Studio">
 <meta property="og:description" content="Transform lecture materials into clear, detailed academic content notes. Upload PDF, Word or PowerPoint files and download your notes.">
 <meta property="og:url" content="https://maestroy.kesug.com/content-notes.php">
-<meta property="og:image" content="https://maestroy.kesug.com/assets/images/maestroy-social-preview.jpg">
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="AI Content Notes Generator | Maestroy">
 <meta name="twitter:description" content="Turn lecture notes into organized academic content notes you can study and download.">
-<meta name="twitter:image" content="https://maestroy.kesug.com/assets/images/maestroy-social-preview.jpg">
+
 <meta name="keywords" content="AI content notes generator, lecture notes converter, academic notes generator, PDF to notes, university study notes, Maestroy">
 <script type="application/ld+json">
 {
@@ -37,7 +37,6 @@
       "operatingSystem": "Web",
       "url": "https://maestroy.kesug.com/content-notes.php",
       "description": "A web tool that transforms uploaded lecture materials into structured academic content notes for study and revision.",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
     }
   ]
 }
