@@ -1,6 +1,47 @@
 <?php ?><!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Content Notes Studio | Maestroy</title>
-<meta name="description" content="Turn lecture materials into clear, organized academic content notes.">
+<meta name="description" content="Turn PDF, Word and PowerPoint lecture notes into clear, detailed academic content notes with Maestroy. Review, edit and download your study notes.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Maestroy FYP Studio">
+<meta name="theme-color" content="#f4eee5">
+<link rel="canonical" href="https://maestroy.kesug.com/content-notes.php">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Maestroy FYP Studio">
+<meta property="og:title" content="AI Content Notes Generator | Maestroy FYP Studio">
+<meta property="og:description" content="Transform lecture materials into clear, detailed academic content notes. Upload PDF, Word or PowerPoint files and download your notes.">
+<meta property="og:url" content="https://maestroy.kesug.com/content-notes.php">
+<meta property="og:image" content="https://maestroy.kesug.com/assets/images/maestroy-social-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Content Notes Generator | Maestroy">
+<meta name="twitter:description" content="Turn lecture notes into organized academic content notes you can study and download.">
+<meta name="twitter:image" content="https://maestroy.kesug.com/assets/images/maestroy-social-preview.jpg">
+<meta name="keywords" content="AI content notes generator, lecture notes converter, academic notes generator, PDF to notes, university study notes, Maestroy">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://maestroy.kesug.com/content-notes.php#webpage",
+      "url": "https://maestroy.kesug.com/content-notes.php",
+      "name": "AI Content Notes Generator | Maestroy FYP Studio",
+      "description": "Transform lecture materials into clear, organized academic content notes.",
+      "isPartOf": {"@id": "https://maestroy.kesug.com/#website"},
+      "inLanguage": "en"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://maestroy.kesug.com/content-notes.php#software",
+      "name": "Maestroy AI Content Notes Generator",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "url": "https://maestroy.kesug.com/content-notes.php",
+      "description": "A web tool that transforms uploaded lecture materials into structured academic content notes for study and revision.",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}
+    }
+  ]
+}
+</script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 <link href="assets/css/style.css?v=20261106-glass2" rel="stylesheet"><link href="assets/css/glass.css?v=apple-system-20261106" rel="stylesheet"><link href="assets/css/content-notes.css?v=1" rel="stylesheet"></head>
