@@ -16,7 +16,7 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <div class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
-    <a class="nav-link active" href="index.php">Overview</a><a class="nav-link" href="ideas.php">Discover ideas</a><a class="nav-link" href="about.php">How it works</a>
+    <a class="nav-link active" href="index.php">Overview</a><a class="nav-link" href="ideas.php">Discover ideas</a><a class="nav-link" href="about.php">How it works</a><a class="nav-link" href="content-notes.php">Content Notes</a>
     <a class="btn apple-nav-cta ms-lg-2" href="ideas.php">Get started <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
    </div>
   </div>
