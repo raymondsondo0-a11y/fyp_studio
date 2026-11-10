@@ -1,0 +1,31 @@
+<?php ?><!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Content Notes Studio | Maestroy</title>
+<meta name="description" content="Turn lecture materials into clear, organized academic content notes.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="assets/css/style.css?v=20261106-glass2" rel="stylesheet"><link href="assets/css/glass.css?v=apple-system-20261106" rel="stylesheet"><link href="assets/css/content-notes.css?v=1" rel="stylesheet"></head>
+<body class="inner-page"><div id="project-canvas-wall" aria-hidden="true"><div class="canvas-slide canvas-slide-a"></div><div class="canvas-slide canvas-slide-b"></div><div class="canvas-wall-shade"></div></div>
+<nav class="navbar navbar-expand-lg site-nav"><div class="container"><a class="navbar-brand fw-bold" href="index.php"><span class="brand-mark">M</span> Maestroy <span class="brand-light">FYP Studio</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#notesNav"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="notesNav"><div class="navbar-nav ms-auto gap-lg-3"><a class="nav-link" href="index.php">Home</a><a class="nav-link" href="ideas.php">Explore ideas</a><a class="nav-link active" href="content-notes.php">Content Notes</a><a class="nav-link" href="about.php">About</a></div></div></div></nav>
+<main class="container cn-wrap">
+<header class="cn-heading"><span class="cn-kicker"><i class="fa-solid fa-book-open me-2"></i>ACADEMIC CONTENT NOTES STUDIO</span><h1>From lecture notes<br><em>to understanding.</em></h1><p>Upload your teacher's original material. Maestroy will organize the concepts into clear, detailed notes you can study, edit and download.</p></header>
+<div class="row g-4 align-items-start"><div class="col-lg-5"><section class="cn-panel">
+<div class="cn-panel-title"><span class="cn-icon"><i class="fa-solid fa-file-arrow-up"></i></span><div><h2>Original lecture material</h2><p>Start with your teacher's notes</p></div></div>
+<label class="cn-upload" for="sourceFile"><i class="fa-solid fa-cloud-arrow-up"></i><strong>Choose your notes file</strong><span>PDF, Word (.docx), PowerPoint (.pptx) or TXT · up to 20 MB</span><input id="sourceFile" type="file" accept=".pdf,.docx,.pptx,.txt"></label>
+<div id="fileStatus" class="cn-file-status">No file selected yet.</div>
+<div class="cn-or"><span>OR PASTE THE TEXT</span></div>
+<label class="form-label" for="sourceText">Original notes text</label><textarea id="sourceText" class="form-control cn-textarea" rows="7" placeholder="Paste the lecture notes here. You can also edit the extracted text after uploading a file."></textarea>
+<div class="cn-count"><span id="charCount">0 characters</span><span>Minimum 250 · Maximum 50,000</span></div>
+<hr class="cn-rule">
+<div class="row g-3"><div class="col-12"><label class="form-label" for="course">Course / subject</label><input id="course" class="form-control" placeholder="e.g. Research Methods"></div>
+<div class="col-12"><label class="form-label" for="topic">Topic or lecture title <span>(optional)</span></label><input id="topic" class="form-control" placeholder="e.g. Sampling techniques"></div>
+<div class="col-6"><label class="form-label" for="level">Study level</label><select id="level" class="form-select"><option>Certificate</option><option>Diploma</option><option selected>University undergraduate</option><option>Postgraduate</option></select></div>
+<div class="col-6"><label class="form-label" for="angle">Organization</label><select id="angle" class="form-select"><option>Concept-first</option><option>Practical examples first</option><option>Question-led learning</option><option>Compare and contrast</option></select></div>
+<div class="col-12"><label class="form-label" for="voice">Writing voice</label><select id="voice" class="form-select"><option>Clear and straightforward</option><option>Explanatory and conversational</option><option>Analytical and formal</option><option>Concise revision style</option></select></div>
+<div class="col-12"><label class="form-label" for="studentContext">My learning focus <span>(optional)</span></label><textarea id="studentContext" class="form-control" rows="2" placeholder="What part do you want explained more clearly? Any local or course-related context?"></textarea></div></div>
+<button id="generateNotes" class="btn cn-generate w-100 mt-4"><i class="fa-solid fa-wand-magic-sparkles me-2"></i>Generate my content notes</button>
+<p class="cn-privacy"><i class="fa-solid fa-lock me-1"></i>Files are read in your browser. Extracted text is sent securely to the Maestroy AI endpoint for generation and is not saved in a database.</p>
+</section></div>
+<div class="col-lg-7"><section class="cn-output-panel" id="outputPanel"><div class="cn-empty"><div class="cn-empty-icon"><i class="fa-solid fa-book-open-reader"></i></div><h2>Your content notes will appear here</h2><p>Upload or paste the original notes, add your course details, then generate. You can review the result before downloading.</p><div class="cn-steps"><span><b>01</b> Upload</span><span><b>02</b> Transform</span><span><b>03</b> Review & download</span></div></div></section></div></div>
+</main><footer class="apple-footer"><div class="container d-flex justify-content-between"><span>© <?php echo date('Y'); ?> Maestroy FYP Studio</span><span>Learn it. Understand it. Make it yours.</span></div></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.8.0/mammoth.browser.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/docx/8.5.0/docx.umd.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="assets/js/content-notes.js?v=1"></script></body></html>
